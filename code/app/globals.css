@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900 transition-colors duration-200 antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dark body {
+  @apply bg-neutral-950 text-gray-100;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@layer utilities {
+  .animate-in {
+    animation-duration: 500ms;
+  }
+}

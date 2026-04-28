@@ -1,0 +1,17 @@
+{
+  "name": "Vale a Pena? 🤔",
+  "short_name": "Vale a Pena?",
+  "description": "Calculadora inteligente para comparar preços.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f59e0b",
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f914.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
